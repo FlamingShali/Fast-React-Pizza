@@ -24,7 +24,7 @@ function MenuItem({ pizza }) {
     };
     dispatch(addItem(newItem));
   }
-  console.log(currentQuantity);
+ 
 
   return (
     <li className="flex gap-4 py-2">
